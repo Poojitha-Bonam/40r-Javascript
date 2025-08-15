@@ -46,13 +46,6 @@ new_para.style.fontFamily = "Arial, sans-serif";
 new_para.style.fontWeight = "bold";
 new_para.style.fontStyle = "italic";
 
-// Create audio element
-let audio_ele = document.createElement("audio");
-audio_ele.src =""; // replace with your audio URL
-audio_ele.id = "audio";
-document.body.appendChild(audio_ele);
-
-
 create_btn.onclick = function() {
     let curr_img = document.getElementById("image")
     curr_img.src = "https://roseyevening.wordpress.com/wp-content/uploads/2021/08/wp-1629005072587.gif?w=600"
@@ -60,9 +53,9 @@ create_btn.onclick = function() {
     document.body.style.backgroundColor = "black";
     curr_img.id = "curr_img1"
     new_para.style.display = "block";
-    audio_ele.play();
-    
+    spanIndependence.style.color = "White";
 }
+
 
 
 
